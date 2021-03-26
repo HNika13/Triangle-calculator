@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(192, 181, 181);
+}
+
+button {
+    margin-left: 15px;
+    border-radius: 5px;
+    border-color: rgb(36, 121, 233);
+    background-color: rgb(36, 121, 233);
+    color: white;
+    cursor: pointer;
+}
+
+img {
+    height: 450px;
+    width: 600px;
+    display: block;
+    margin: -500px 450px;
+}
+
+p {
+    margin-left: 15px;
+}

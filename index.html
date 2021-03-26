@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 19</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="list">
+        <h2>აირჩიეთ სასურველი ვარიანტი:</h2>
+        <div class="list1">
+            <p>a b c <button onclick="triangle('varianti1')">3 გვერდი</button></p>
+        </div>
+        <div class="list2">
+            <p>a b C <button onclick="triangle('varianti2')">2 გვერდი 1 კუთხე</button></p>
+        </div>
+        <div class="list3">
+            <p>a B C <button onclick="triangle('varianti3')">1 გვერდი 2 კუთხე</button></p>
+        </div>
+    </div>
+    <h2 id="choosenVarianti"></h2>
+    <h2>მიღებული მონაცემები: <span id="outPutMain"></span> </h2>
+    <p><span id="outPutSide1"></span></p>
+    <p><span id="outPutSide"></span></p>
+    <p>პერიმეტრი : <span id="outPutP"></span></p>
+    <p>ფართობი : <span id="outPutS"></span></p>
+    <p>სიმაღლე A დან : <span id="outPutH1"></span></p>
+    <p>სიმაღლე B დან : <span id="outPutH2"></span></p>
+    <p>სიმაღლე C დან : <span id="outPutH3"></span></p>
+    <p>მედიანა A : <span id="outPutE1"></span></p>
+    <p>მედიანა B : <span id="outPutE2"></span></p>
+    <p>მედიანა C : <span id="outPutE3"></span></p>
+    <p>ბისექტრისა A: <span id="outPutB1"></span></p>
+    <p>ბისექტრისა B: <span id="outPutB2"></span></p>
+    <p>ბისექტრისა C: <span id="outPutB3"></span></p>
+    <p>შემოხაზული : <span id="outPutR1"></span></p>
+    <p>ჩახაზული : <span id="outPutR2"></span></p>
+    <img src="./image/Triangle.png">
+    <script src="./main.js"></script>
+</body>
+
+</html>
