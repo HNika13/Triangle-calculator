@@ -1,7 +1,7 @@
 function triangle1() {
-    let a = Number(prompt("შეიყვანეთ A მნიშვნელობათ:"));
-    let b = Number(prompt("შეიყვანეთ B მნიშვნელობათ:"));
-    let c = Number(prompt("შეიყვანეთ C მნიშვნელობათ:"));
+    let a = Number(prompt("შეიყვანეთ A მნიშვნელობა:"));
+    let b = Number(prompt("შეიყვანეთ B მნიშვნელობა:"));
+    let c = Number(prompt("შეიყვანეთ C მნიშვნელობა:"));
     document.getElementById("outPutMain").innerHTML = "";
     if (a + b < c || a - b > c) {
         document.getElementById("outPutMain").innerHTML =
@@ -68,9 +68,9 @@ function triangle1() {
 
 function triangle2() {
     document.getElementById("outPutMain").innerHTML = "";
-    let a = Number(prompt("შეიყვანეთ A მნიშვნელობათ:"));
-    let b = Number(prompt("შეიყვანეთ B მნიშვნელობათ:"));
-    let C = Number(prompt("შეიყვანეთ C მნიშვნელობათ:"));
+    let a = Number(prompt("შეიყვანეთ A მნიშვნელობა:"));
+    let b = Number(prompt("შეიყვანეთ B მნიშვნელობა:"));
+    let C = Number(prompt("შეიყვანეთ C მნიშვნელობა:"));
     if (C >= 180) {
         return (document.getElementById("outPutMain").innerHTML =
             "შეყვანილი მონაცამები არასწორია! კუთხე უნდა იყოს 180_ზე ნაკლები");
@@ -152,9 +152,9 @@ function triangle2() {
 
 function triangle3() {
     document.getElementById("outPutMain").innerHTML = "";
-    let a = Number(prompt("შეიყვანეთ A მნიშვნელობათ:"));
-    let B = Number(prompt("შეიყვანეთ B მნიშვნელობათ:"));
-    let C = Number(prompt("შეიყვანეთ C მნიშვნელობათ:"));
+    let a = Number(prompt("შეიყვანეთ A მნიშვნელობა:"));
+    let B = Number(prompt("შეიყვანეთ B მნიშვნელობა:"));
+    let C = Number(prompt("შეიყვანეთ C მნიშვნელობა:"));
     if (B + C >= 180) {
         return (document.getElementById("outPutMain").innerHTML =
             "შეყვანილი მონაცამები არასწორია! 2 კუთხის ჯამი უნდა იყოს 180_ზე ნაკლები.");
